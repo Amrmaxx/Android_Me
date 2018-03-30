@@ -48,12 +48,12 @@ public class MasterListFragment extends Fragment {
 
         // This makes sure that the host activity has implemented the callback interface
         // If not, it throws an exception
-        try {
-            mCallback = (OnImageClickListener) context;
-        } catch (ClassCastException e) {
-            throw new ClassCastException(context.toString()
-                    + " must implement OnImageClickListener");
-        }
+//        try {
+//            mCallback = (OnImageClickListener) context;
+//        } catch (ClassCastException e) {
+//            throw new ClassCastException(context.toString()
+//                    + " must implement OnImageClickListener");
+//        }
     }
 
 
